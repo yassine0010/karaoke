@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>karoke game</h1>
+        <h2>choose a number</h2>
+    </div>
+
+    <div class="numbers-grid">
+    </div>
+
+    <!-- Conteneur plein écran pour les vidéos -->
+    <div class="fullscreen-container" id="fullscreenContainer">
+        <div class="fullscreen-controls">
+            <button class="control-btn" id="closeFullscreen" title="Fermer">×</button>
+        </div>
+        <div id="fullscreenVideoContainer">
+            <!-- Le contenu vidéo sera inséré ici dynamiquement -->
+        </div>
+    </div>
+
+    <div class="song-container">
+        <div class="song-content">
+            <button class="close-btn">×</button>
+           
+            <h2 class="song-title"></h2>
+            <p class="song-artist"></p>
+            <div class="video-container">
+                <iframe width="200" height="200" frameborder="200" allowfullscreen="" title="Karaoke Video"></iframe>
+                <div class="karaoke">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
